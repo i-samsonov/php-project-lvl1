@@ -1,10 +1,17 @@
 {
     "name": "hexlet/code",
+    "description": "hexlet/code",
+    "license": [
+      "proprietary"
+    ],
     "authors": [
         {
             "name": "samsonov",
             "email": "isamsonov@yandex.ru"
         }
+    ],
+    "bin": [
+      "bin/brain-games"
     ],
     "require": {}
 }

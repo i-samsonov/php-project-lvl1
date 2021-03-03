@@ -11,3 +11,10 @@ function greeting()
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
 }
+
+function greeting3()
+{
+    line('Welcome to the Brain Game!');
+    $name = prompt('May I have your name?');
+    line("Hello, %s!", $name);
+}

@@ -3,4 +3,4 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-\Brain\Games\Engine\initGame('Even');
+\Brain\Games\Engine\initGame('Progression');

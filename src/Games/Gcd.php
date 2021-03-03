@@ -2,46 +2,20 @@
 
 namespace Brain\Games\Gcd;
 
-use function cli\line;
-use function cli\prompt;
-
-function run($userName, $maxRounds)
+function legend()
 {
-
-    line("Find the greatest common divisor of given numbers.");
-
-    $round = 1;
-
-    while ($round <= $maxRounds) {
-        $x = rand(1, 50);
-        $y = rand(1, 50);
-
-        $correct = gcd($x, $y);
-
-        line("Question: $x $y");
-        $answer = prompt("Your answer");
-
-        if ($correct != $answer) {
-            line("'%s' is wrong answer ;(. Correct answer was '%s'.", $answer, $correct);
-            line('Let\'s try again, %s!', $userName);
-            return;
-        } else {
-            line("Correct!");
-        }
-
-        $round++;
-    }
-
-    line("Congratulations, %s!", $userName);
+    return "Find the greatest common divisor of given numbers.";
 }
 
+function run()
+{
+    $x = rand(1, 50);
+    $y = rand(1, 50);
 
+    $correct = gcd($x, $y);
 
-
-
-
-
-
+    return ['question' => "$x $y", 'correct' => $correct];
+}
 
 function gcd($a, $b)
 {

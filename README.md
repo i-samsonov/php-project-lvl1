@@ -6,3 +6,7 @@
 
 [Калькулятор - корректные ответы](https://asciinema.org/a/d7EbWxpUL8qWNgFWAcn7EAXKU)<br />
 [Калькулятор - неверный ответ](https://asciinema.org/a/H53GDnwadpnMuHapXH5v16UII)
+
+[НОД - корректные ответы](https://asciinema.org/a/GrHvczwWSFee8OJUA3MoVx07D)<br />
+[НОД - неверный ответ](https://asciinema.org/a/kIduJ3XcDKrUPwmgIX47WVWBP)
+

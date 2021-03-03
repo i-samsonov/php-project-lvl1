@@ -35,6 +35,8 @@ function run($userName, $maxRounds)
     line("Congratulations, %s!", $userName);
 }
 
-function gcd($a,$b) {
-    return ($a % $b) ? gcd($b,$a % $b) : $b;
+
+function gcd($a, $b)
+{
+    return ($a % $b) ? gcd($b, $a % $b) : $b;
 }

@@ -13,3 +13,6 @@
 
 [Арифметическая прогрессия - корректные ответы](https://asciinema.org/a/3qB4o8I3r6BPoKpvxwCp9lSdm)<br />
 [Арифметическая прогрессия - неверный ответ](https://asciinema.org/a/3FodrTYVmZo340KyBDu1jayjP)
+
+[Простое ли число? - корректные ответы](https://asciinema.org/a/Ovv1kdANr7birFPH6r9t9nid6)<br />
+[Простое ли число? - неверный ответ](https://asciinema.org/a/cBAIYQKTlIAoGOoRmcw6ejvba)

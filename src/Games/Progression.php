@@ -2,12 +2,12 @@
 
 namespace Brain\Games\Progression;
 
-function legend()
+function legend(): string
 {
     return "What number is missing in the progression?";
 }
 
-function run()
+function run(): array
 {
     $start = rand(1, 20);
     $step = rand(2, 4);

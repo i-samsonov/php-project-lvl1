@@ -2,12 +2,12 @@
 
 namespace Brain\Games\Gcd;
 
-function legend()
+function legend(): string
 {
     return "Find the greatest common divisor of given numbers.";
 }
 
-function run()
+function run(): array
 {
     $x = rand(1, 50);
     $y = rand(1, 50);
@@ -17,7 +17,7 @@ function run()
     return ['question' => "$x $y", 'correct' => $correct];
 }
 
-function gcd($a, $b)
+function gcd(int $a, int $b): ?int
 {
     return ($a % $b) ? gcd($b, $a % $b) : $b;
 }

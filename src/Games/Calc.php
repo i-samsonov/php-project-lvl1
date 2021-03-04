@@ -2,12 +2,12 @@
 
 namespace Brain\Games\Calc;
 
-function legend()
+function legend(): string
 {
     return "What is the result of the expression?";
 }
 
-function run()
+function run(): array
 {
     $operatorsMap = [
         'times' => function ($x, $y) {

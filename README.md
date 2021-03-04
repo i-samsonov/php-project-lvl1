@@ -1,5 +1,6 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/i-samsonov/php-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/i-samsonov/php-project-lvl1/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/b83b66a80e0cbbd00b86/maintainability)](https://codeclimate.com/github/i-samsonov/php-project-lvl1/maintainability)
 
 **Аскинемы:**
 

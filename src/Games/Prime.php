@@ -2,12 +2,12 @@
 
 namespace Brain\Games\Prime;
 
-function legend()
+function legend(): string
 {
     return "Answer \"yes\" if given number is prime. Otherwise answer \"no\".";
 }
 
-function run()
+function run(): array
 {
     $x = rand(1, 101);
 //    $correct = gmp_prob_prime($x) === 2 ? "yes" : "no";
@@ -16,7 +16,7 @@ function run()
     return ['question' => $x, 'correct' => $correct];
 }
 
-function isPrime($n)
+function isPrime(int $n): bool
 {
     for ($i = 2; $i < $n; $i++) {
         if ($n % $i == 0) {

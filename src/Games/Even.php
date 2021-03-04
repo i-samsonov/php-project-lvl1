@@ -2,15 +2,15 @@
 
 namespace Brain\Games\Even;
 
-function legend()
+function legend(): string
 {
     return "Answer \"yes\" if the number is even, otherwise answer \"no\".";
 }
 
-function run()
+function run(): array
 {
-    $num = rand(1, 30);
-    $correct = $num % 2 == 0 ? 'yes' : 'no';
+    $rand = rand(1, 30);
+    $correct = $rand % 2 == 0 ? 'yes' : 'no';
 
-    return ['question' => $num, 'correct' => $correct];
+    return ['question' => $rand, 'correct' => $correct];
 }

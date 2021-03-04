@@ -5,7 +5,7 @@ namespace Brain\Games\Engine;
 use function cli\line;
 use function cli\prompt;
 
-function initGame($gameName)
+function initGame(string $gameName): void
 {
     line('Welcome to the Brain Game!');
     $userName = prompt('May I have your name?', '', ' ');
@@ -16,9 +16,9 @@ function initGame($gameName)
 
 //    $legend = $funcLegend();
 //    $legend = call_user_func($funcLegend);
-    $legend = is_callable($funcLegend) ? $funcLegend : false;
+    $legend = is_callable($funcLegend) ? $funcLegend() : false;
 
-    line($legend());
+    line($legend);
 
     $round = 1;
     while ($round <= 3) {

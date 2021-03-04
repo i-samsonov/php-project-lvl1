@@ -16,15 +16,15 @@ function initGame($gameName)
 
 //    $legend = $funcLegend();
 //    $legend = call_user_func($funcLegend);
-    $legend = is_callable ($funcLegend) ? $funcLegend : false;
+    $legend = is_callable($funcLegend) ? $funcLegend : false;
 
-    line($legend);
+    line($legend());
 
     $round = 1;
     while ($round <= 3) {
 //        $result = $funcRun();
 //        $result = call_user_func($funcRun);
-        $result = is_callable ($funcRun) ? $funcRun : false;
+        $result = is_callable($funcRun) ? $funcRun() : false;
 
         line("Question: %s", $result['question']);
         $answer = prompt("Your answer", '', ': ');
